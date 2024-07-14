@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    
+}
+
+.right{
+    background-color: #000;
+    color: #fff;
+}
+
+.right li {
+    margin: 10px 10px;
+    padding: 5px;
+}
+
+input{
+    padding: 3px;
+}
+
+.left-side{
+    display: flex;
+}
+
+.name{
+    display: block;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 250px;
+
+}
+
+.desc{
+    display: block;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 320px;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
